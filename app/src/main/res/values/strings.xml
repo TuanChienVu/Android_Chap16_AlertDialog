@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Chap16_CustomDialog</string>
+    <!-- Order is important here: -->
+    <string-array name="country_names">
+        <item>+1 United States"</item>
+        <item>+45 Uruguay</item>
+        <item>+46 Uzbekistan</item>
+        <item>+47 Vanuatu</item>
+        <item>+48 Vatican_city</item>
+        <item>+49 Venezuela</item>
+        <item>+84 Viet Nam</item>
+    </string-array>
+
+    <string-array name="country_codes">
+        <item>1</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>84</item>
+    </string-array>
+
+    <string-array name="country_flags">
+        <item>@drawable/united_states</item>
+        <item>@drawable/uruguay</item>
+        <item>@drawable/uzbekistan</item>
+        <item>@drawable/vanuatu</item>
+        <item>@drawable/vatican_city</item>
+        <item>@drawable/venezuela</item>
+        <item>@drawable/vietnam</item>
+    </string-array>
+    <string name="title_activity_countrycode">CountrycodeActivity</string>
+</resources>
